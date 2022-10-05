@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: linear-gradient(#121212, #333);
+}
+/* all items */
+.all-items{
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+/* header */
+.header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #ccc;
+    padding: 1%;
+    margin: 1%;
+}
+.logo{
+    width: 50px;
+}
+.div-search input{
+    color: #000;
+    padding: 4%;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eee;
+    font-size: 16px;
+    border: 1px solid #333;
+    transition-duration:0.5s ;
+    font-weight: bold;
+}
+.div-search input:hover{
+   background-color: #40454b; 
+   color: #fff;
+   padding-left: 20px;
+}
+/* main */
+.main{
+    display: flex;
+    margin-top: 4%;
+    background: linear-gradient(#fff, rgb(226, 226, 226));
+}
+.left{
+    width: 26%;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1%;
+}
+.options p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 15px;
+    transition-duration: 0.5s;
+    padding: 1%;
+    font-size: 22px;
+}
+.options p:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color: #40454b;
+    padding-left: 5px;
+    padding-right: 1%;
+    border-radius: 30px;
+    padding-left: 5%;
+    
+}
+.options i{
+    padding-right: 10px;
+    font-weight: 25px;
+}
+.right{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    border-left: 3px solid #ccc;
+}
+.right h1{
+    color: #333;
+    padding-bottom: 2%;
+    font-size: 35px;
+}
+.right p{
+    padding-top: 6%;
+    font-size: 25px;
+}
+.tasks{
+    align-items: center;
+}
+.tasks input{
+    size: 20px;
+    cursor: pointer;
+}
+.tasks span{
+    margin-left: 5% ;
+    padding: 1.5%;
+    border-radius: 40px;
+    padding-right: 10%;
+    transition-duration: 0.5s;
+}
+.tasks span:hover{
+    background-color: #40454b;
+    color: #fff;
+    padding-left: 5%;
+}
+.tasks i{
+    margin-right: 4%;
+}
+input[type='checkbox']{
+    -webkit-appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #333;
+    transition-duration: 0.5s;
+}
+input[type='checkbox']:hover{
+    background:#40454b;
+}
+input[type='checkbox']:checked{
+    background: #000;
+    width: 30px;
+    height: 30px;
+}
